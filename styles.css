@@ -1,0 +1,98 @@
+:root{
+    --light-color: #E7F2B7;
+    --mid-color: #8FCB3E;
+    --dark-color: #047849;
+    --black-color:#032a3c;
+    --black-color-opacity:#032a3cb6;
+}
+
+body{
+    margin:0;
+    background: var(--black-color);
+    color: var(--light-color);
+    text-align: center;
+}
+
+.header-pfp{
+    width: 20vw;
+    height: auto;
+    margin-top: 4rem;
+    margin-bottom: 1rem;
+    border-radius: 50%;
+}
+
+@font-face {
+    font-family: "ibm_plex_monobold";
+    src: url("Fonts/ibmplexmono-bold-webfont.woff2") format("woff2"), url("Fonts/ibmplexmono-bold-webfont.woff") format("woff");
+    font-weight: normal;
+    font-style: normal;
+  }
+  @font-face {
+    font-family: "ibm_plex_monobold_italic";
+    src: url("Fonts/ibmplexmono-bolditalic-webfont.woff2") format("woff2"), url("Fonts/ibmplexmono-bolditalic-webfont.woff") format("woff");
+    font-weight: normal;
+    font-style: normal;
+  }
+  @font-face {
+    font-family: "ibm_plex_monoextralight";
+    src: url("Fonts/ibmplexmono-extralight-webfont.woff2") format("woff2"), url("Fonts/ibmplexmono-extralight-webfont.woff") format("woff");
+    font-weight: normal;
+    font-style: normal;
+  }
+  @font-face {
+    font-family: "ibm_plex_monoXLtIt";
+    src: url("Fonts/ibmplexmono-extralightitalic-webfont.woff2") format("woff2"), url("Fonts/ibmplexmono-extralightitalic-webfont.woff") format("woff");
+    font-weight: normal;
+    font-style: normal;
+  }
+  @font-face {
+    font-family: "ibm_plex_monoitalic";
+    src: url("Fonts/ibmplexmono-italic-webfont.woff2") format("woff2"), url("Fonts/ibmplexmono-italic-webfont.woff") format("woff");
+    font-weight: normal;
+    font-style: normal;
+  }
+  @font-face {
+    font-family: "ibm_plex_monolight";
+    src: url("Fonts/ibmplexmono-light-webfont.woff2") format("woff2"), url("Fonts/ibmplexmono-light-webfont.woff") format("woff");
+    font-weight: normal;
+    font-style: normal;
+  }
+  @font-face {
+    font-family: "ibm_plex_monolight_italic";
+    src: url("Fonts/ibmplexmono-lightitalic-webfont.woff2") format("woff2"), url("Fonts/ibmplexmono-lightitalic-webfont.woff") format("woff");
+    font-weight: normal;
+    font-style: normal;
+  }
+  @font-face {
+    font-family: "ibm_plex_monomedium";
+    src: url("Fonts/ibmplexmono-medium-webfont.woff2") format("woff2"), url("Fonts/ibmplexmono-medium-webfont.woff") format("woff");
+    font-weight: normal;
+    font-style: normal;
+  }
+  @font-face {
+    font-family: "ibm_plex_monomedium_italic";
+    src: url("Fonts/ibmplexmono-mediumitalic-webfont.woff2") format("woff2"), url("Fonts/ibmplexmono-mediumitalic-webfont.woff") format("woff");
+    font-weight: normal;
+    font-style: normal;
+  }
+  @font-face {
+    font-family: "ibm_plex_monoregular";
+    src: url("Fonts/ibmplexmono-regular-webfont.woff2") format("woff2"), url("Fonts/ibmplexmono-regular-webfont.woff") format("woff");
+    font-weight: normal;
+    font-style: normal;
+  }
+  @font-face {
+    font-family: "ibm_plex_monosemibold";
+    src: url("Fonts/ibmplexmono-semibold-webfont.woff2") format("woff2"), url("Fonts/ibmplexmono-semibold-webfont.woff") format("woff");
+    font-weight: normal;
+    font-style: normal;
+  }
+  @font-face {
+    font-family: "ibm_plex_monosemibold_italic";
+    src: url("Fonts/ibmplexmono-semibolditalic-webfont.woff2") format("woff2"), url("Fonts/ibmplexmono-semibolditalic-webfont.woff") format("woff");
+    font-weight: normal;
+    font-style: normal;
+  }
+  h1, h2, h3, h4, h5, h6, p {
+    font-family: "ibm_plex_monoregular";
+  }
