@@ -11,6 +11,7 @@ body{
     background: var(--black-color);
     color: var(--light-color);
     text-align: center;
+    line-height: 1.5;
 }
 
 .header-pfp{
@@ -19,6 +20,16 @@ body{
     margin-top: 4rem;
     margin-bottom: 1rem;
     border-radius: 50%;
+}
+
+.custom-link{
+    text-decoration: none;
+    color: var(--mid-color);
+}
+
+.custom-link:hover{
+    text-decoration: underline;
+    color: var(--dark-color);
 }
 
 @font-face {
